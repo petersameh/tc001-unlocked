@@ -1,0 +1,22 @@
+# ---- PRIVATE: never commit ----
+# Full flash dumps: contain Wi-Fi SSID + password, YouTube API key, and Ulanzi's proprietary firmware
+backup/
+# Tuya cloud Access ID/Secret and every device's local key
+tuya/
+tinytuya.json
+devices.json
+snapshot.json
+tuya-raw.json
+# Captures from the stock firmware (YouTube API key, channel ID, Wi-Fi name, LAN map)
+recon/
+# Any env / secret files
+.env
+*.secret
+# ---- build output / local tooling ----
+.venv/
+.pio/
+firmware/*/.pio/
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/

@@ -1,0 +1,6 @@
+cryptography==50.0.2
+esptool==4.13.0
+pillow==11.3.0
+platformio==6.2.0
+pyserial==3.5
+tinytuya==1.20.0
